@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,regular,500,600,700,800,900);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100%;
+    /* height: 100vh; */
+}
+/* Styling nav bar w/ flex */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-left, .nav-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-about {
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+#logo {
+    max-width: 100%;
+}
+
+.cart-container{
+    width:30px;
+}
+
+img#cart{
+    max-width: 100%;
+}
+
+
+
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#content {
+    /* width: 100vw; */
+    height: 85vh;
+    /* margin-bottom: 0; */
+    /* height: 100%; */
+    background-image: url("./img/steak-on-grill.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    width: 100%;
+}
+
+.hero-text h1{
+    text-shadow: 5px 5px 5px black;
+    /* border: 2px solid black; */
+}
+/* 
+.home-wrap{
+    
+    width: inherit;
+    /* height:inherit; */
+
+button#menu{
+    margin-top: 20px;
+    border: 2px solid #be2f37;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #be2f37;
+    border: 1px solid black;
+}
+
+button#menu:hover{
+    background-color: #601a1d;
+}
+
+
+footer{
+
+    display: flex;
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
