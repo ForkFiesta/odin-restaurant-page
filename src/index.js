@@ -22,8 +22,8 @@ function manageNavigation(){
         })
     });
 
-    homeButtom.forEach(element => {
-        
+    homeButtom.addEventListener("click", ()=>{
+        location.reload();
     })
 }
 
